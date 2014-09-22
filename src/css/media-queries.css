@@ -1,0 +1,94 @@
+/* Media queries */
+
+@media only screen and (max-width: 1080px) {
+
+  body {
+    padding: 2em 3em;
+  }
+
+  /* Reduce watermark size */
+
+  #watermark {
+    background-size: 250px 206px;
+  }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+  /* Move watermark to body (disables parallax) */
+
+  body {
+    padding: 2em;
+    background-image: url('/assets/img/header/bird.jpg');
+    background-position: right top;
+    background-size: 250px 206px;
+    background-repeat: no-repeat;
+  }
+
+  #watermark {
+    background-image: none;
+  }
+
+  /* Bump nav down to its own line */
+
+  .sections {
+    clear: left;
+  }
+
+  .sections li:first-child {
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  body {
+    padding: 1em;
+    background-size: 125px 103px;
+  }
+
+  .text {
+    margin: 2em 0;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+  }
+
+  /* Break long URLs */
+
+  a {
+    word-wrap: break-word;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sections li {
+    margin-right: 10px;
+    font-size: 32px;
+  }
+
+  /* Wrap cover */
+
+  .cover {
+    clear: both;
+    float: none;
+    margin-left: 0;
+  }
+
+  /* Various space-savers */
+
+  .box-title, .box-contents {
+    padding-left: 0.75em;
+    padding-right: 0.5em;
+  }
+
+  .attribution em {
+    white-space: normal;
+  }
+
+
+}

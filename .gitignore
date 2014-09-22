@@ -1,0 +1,5 @@
+public/build
+public/editor
+public/vendor
+bower_components
+node_modules

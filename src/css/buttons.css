@@ -1,0 +1,63 @@
+/*
+  Codrops "Creative Buttons"
+  https://github.com/codrops/CreativeButtons
+*/
+
+/* General button style (reset) */
+
+.btn {
+
+  position: relative;
+  display: inline-block;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+
+  color: #333;
+  background-color: #fff;
+
+  margin: 0 0 7px 0;
+  padding: 3px 15px 3px 12px;
+
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+
+  border: solid 2px #333;
+  border-radius: 5px;
+
+}
+
+.btn:hover {
+  color: #000;
+  border-color: #000;
+  text-decoration: none;
+}
+
+
+/* Customizations */
+
+.order {
+  padding: 4px 15px 2px 12px;
+  color: #fff;
+  background-color: #457;
+  font-size: 15px;
+  border: none;
+  box-shadow: 0 3px #235;
+}
+
+.order:hover {
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px #235;
+  top: -1px;
+}
+
+.order:active {
+  box-shadow: 0 0 #235;
+  top: 3px;
+}
+
+.standalone {
+  margin-top: 8px;
+}

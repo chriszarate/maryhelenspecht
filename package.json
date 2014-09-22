@@ -1,0 +1,47 @@
+{
+  "name": "maryhelenspecht",
+  "author": {
+    "name": "Chris Zarate",
+    "url": "http://chris.zarate.org"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "browserify": "^5.11.2",
+    "browserify-shim": "^3.7.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-load-options": "^0.1.4",
+    "load-grunt-tasks": "^0.6.0"
+  },
+  "browser": {
+    "jquery": "./bower_components/jquery/dist/jquery.js",
+    "jquery.stellar": "./bower_components/stellar.js/src/jquery.stellar.js",
+    "jquery.fancybox": "./bower_components/fancybox/source/jquery.fancybox.js"
+  },
+  "browserify-shim": {
+    "jquery": "jQuery",
+    "jquery.stellar": {
+      "depends": [
+        "jquery:jQuery"
+      ]
+    },
+    "jquery.fancybox": {
+      "depends": [
+        "jquery:jQuery"
+      ]
+    }
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  }
+}

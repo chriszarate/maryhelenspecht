@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteLog rewrite.log
+RewriteLogLevel 5
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^[^?]*$ /vendor/index.php [NC,L,QSA]
+
+ErrorDocument 404 /vendor/index.php
