@@ -1,7 +1,7 @@
 {
   "name": "maryhelenspecht",
   "dependencies": {
-    "normalize.css": "~3.0.1",
+    "normalize.css": "^3.0.2",
     "jquery": "^1.11.1",
     "fancybox": "^2.1.5",
     "stellar.js": "^0.6.2"
