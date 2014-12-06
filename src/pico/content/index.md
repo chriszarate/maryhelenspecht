@@ -38,7 +38,7 @@ Description: Mary Helen Specht is a writer living in Austin, Texas. Her first no
 <p class="attribution">Molly Antopol, author of <em>The UnAmericans</em></p>
 
 <p class="blurb">“Mary Helen Specht’s lyrical novel reminds me of the work of both Claire Messud and Barbara Kingsolver.&nbsp;.&nbsp;.&nbsp;. A luminous debut.&nbsp;.&nbsp;.&nbsp;. Rich with love and heartbreak, it’s the book I’ll be wanting to share with all my friends.”</p>
-<p class="attribution">Amanda Eyre Ward, author of <em>How to Be Alone</em></p>
+<p class="attribution">Amanda Eyre Ward, author of <em>How to Be Lost</em></p>
 
 <p class="blurb">“An emotionally nuanced debut.&nbsp;.&nbsp;.&nbsp;. The men and women of Mary Helen Specht’s imagination inhabit a world of breathtaking vividness, where life’s pains and pleasures ripple through to marvelous effect. A heartbreaking, edifying, and resonant work of art.”</p>
 <p class="attribution">Keija Parssinen, author of <em>The Ruins of Us</em></p>
